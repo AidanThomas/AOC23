@@ -1,6 +1,7 @@
 use std::env;
 
 mod day1;
+mod day2;
 mod parser;
 
 fn main() {
@@ -18,6 +19,7 @@ fn main() {
     // Run code from individual days here
     match parsed_day {
         1 => day1::answer(),
+        2 => day2::answer(),
         _ => (),
     }
 }
