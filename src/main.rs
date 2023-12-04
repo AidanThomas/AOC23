@@ -3,6 +3,7 @@ use std::env;
 mod day1;
 mod day2;
 mod day3;
+mod day4;
 mod parser;
 
 fn main() {
@@ -22,6 +23,7 @@ fn main() {
         1 => day1::answer(),
         2 => day2::answer(),
         3 => day3::answer(),
+        4 => day4::answer(),
         _ => (),
     }
 }
