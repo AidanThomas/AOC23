@@ -125,7 +125,7 @@ fn part2(real: bool) -> Result<(), String> {
     Ok(())
 }
 
-fn calculate_strength(cards: String, jokers: bool) -> u32 {
+fn calculate_strength(cards: String, _jokers: bool) -> u32 {
     let matches = cards
         .chars()
         .map(|c| {
