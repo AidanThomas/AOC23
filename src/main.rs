@@ -8,6 +8,7 @@ mod day5;
 mod day6;
 mod day7;
 mod day8;
+mod day9;
 mod parser;
 
 fn main() {
@@ -32,6 +33,7 @@ fn main() {
         6 => day6::answer(),
         7 => day7::answer(),
         8 => day8::answer(),
+        9 => day9::answer(),
         _ => (),
     }
 }
